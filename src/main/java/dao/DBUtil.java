@@ -34,7 +34,8 @@ public class DBUtil {
 		String connectionUrl = "jdbc:postgresql://ip-172-31-86-7.ec2.compute.internal:8888/bms";
 		
 		String userName = "postgres";
-		String password = "mysecretpassword";
+		String password = "root";
+		//String password = "mysecretpassword";
 		
 		if(conn == null) {
 			try {
