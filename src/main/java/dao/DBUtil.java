@@ -31,11 +31,11 @@ public class DBUtil {
 		//String connectionUrl = "jdbc:postgresql://10.0.0.88:8888/bms";
 		//String connectionUrl = "jdbc:postgresql://ip-172-31-44-226.us-east-2.compute.internal:8888/bms";
 		//copy from EC2 the private ip "ip-172-31-86-7.ec2.internal" hh line33
-		String connectionUrl = "jdbc:postgresql://ip-172-31-86-7.ec2.compute.internal:8888/bms";
+		String connectionUrl = "jdbc:postgresql://ip-172-31-86-7.ec2.internal:8888/bms";
 		
 		String userName = "postgres";
-		String password = "root";
-		//String password = "mysecretpassword";
+		//String password = "root";   //test
+		String password = "mysecretpassword";
 		
 		if(conn == null) {
 			try {
